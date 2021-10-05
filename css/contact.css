@@ -8,31 +8,33 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-top: 10px;
 }
 
 .contact-info .item {
     display: flex;
     width: calc(33% - 20px);
     height: 160px;
-    background-color: #353b48;
+    background-color: #333;
     color: #fff;
     text-align: center;
     border-radius: 4px;
-    cursor: pointer;
-    /* transition: .3s linear; */
     justify-content: center;
     align-items: center;
     vertical-align: middle;
 }
 
-.contact-info p {
-    display: block;
-    font-size: 15px;
-    line-height: 100px;
-    height: 100px;
+@media only screen and (max-width: 772px) {
+    .contact-info .item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
 }
 
-.contact-info .item:hover {
-    background-color: #48dbfb;
+@media only screen and (max-width: 600px) {
+    .contact-info .item {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
