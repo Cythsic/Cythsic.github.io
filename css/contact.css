@@ -1,0 +1,38 @@
+/* contact */
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.contact-info .item {
+    display: flex;
+    width: calc(33% - 20px);
+    height: 160px;
+    background-color: #353b48;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    /* transition: .3s linear; */
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.contact-info p {
+    display: block;
+    font-size: 15px;
+    line-height: 100px;
+    height: 100px;
+}
+
+.contact-info .item:hover {
+    background-color: #48dbfb;
+}

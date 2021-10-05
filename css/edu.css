@@ -1,0 +1,19 @@
+/* education */
+.edu-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .edu-text h3 {
+    margin: 10px 0;
+    color: #444;
+    font-size: 16px;
+  }
+  
+  .edu-text p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }

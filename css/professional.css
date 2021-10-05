@@ -1,0 +1,28 @@
+/* professional */
+.section-title{
+  padding: 0 20px 20px 20px;
+}
+
+.time-line{
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+    width: calc(50% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 30px;
+    position: relative;
+  }
+  
+  .block h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .block p {
+    font-size: 15px;
+    color: #444;
+  }

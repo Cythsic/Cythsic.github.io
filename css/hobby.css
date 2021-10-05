@@ -1,0 +1,32 @@
+/* hobby */
+section{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.time-line,
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hobby {
+  width: calc(33% - 10px);
+  border-radius: 6px;
+  margin: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.hobby img {
+  width: 100%;
+  height: 100%;
+}
+
+.hobby h3{
+    color: black;
+}
+.cat{
+    color: black;
+}
